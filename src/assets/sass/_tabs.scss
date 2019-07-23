@@ -1,0 +1,37 @@
+.tabs {
+  position: relative;
+
+  &__list {
+    @include unstyled-list();
+  }
+
+  &__item {
+    position: relative;
+
+    @include desktop {
+      width: 70%;
+    }
+
+    &:hover {
+      color: $black;
+    }
+
+    & .tabs__link {
+      display: block;
+      padding: 20px 20px 20px 60px;
+
+      &:hover {
+        color: $black;
+      }
+    }
+
+    &.is-active {
+      @include tab-dropshadow();
+    }
+  }
+
+  &__link {
+    color: $gray;
+    font-weight: $font-weight-medium;
+  }
+}
