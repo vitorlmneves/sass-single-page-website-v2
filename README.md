@@ -1,7 +1,7 @@
 # Victor Neves: sass-single-page-webite
 
 
-This is an alternative version of the this project [sass-single-page-website](https://github.com/vitorlmneves/sass-single-page-website)) using a little of javascript to handle the transition of images and without the infinite carousel.
+This is an alternative version of the this project [sass-single-page-website](https://github.com/vitorlmneves/sass-single-page-website) using a little of javascript to handle the transition of images and without the infinite carousel.
 
 ## INSTALLATION
 
